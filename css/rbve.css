@@ -1,0 +1,42 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.rbve_events > ul {
+    padding-left: 0;
+    margin:0;
+}
+.rbve_event_item {
+    overflow:hidden;
+    display: flex;
+    line-height:1.6rem;
+}
+.rbve_event_item > * {
+    float: left;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.rbve_date {
+    background: lightgray;
+    min-width: 26px;
+    text-align: center;
+    border: 1px dashed grey;
+    padding: 0 5px;
+    margin-right: 10px;
+}
+.rbve_date_month,
+.rbve_date_day {
+    display: block;
+}
+.rbve_date_month {
+    font-size: 1.0rem;
+    line-height: 1rem;
+    padding-top: 5px;
+}
+.rbve_date_day {
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+    padding-bottom: 5px;
+}
